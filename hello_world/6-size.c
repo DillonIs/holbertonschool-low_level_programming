@@ -11,7 +11,7 @@ int a;
 long int b;
 long long int c;
 
-printf("Size of char: %u byte(s)\n", sizeof(char));
+printf("Size of a char: %u byte(s)\n", sizeof(char));
 printf("Size of an int: %u byte(s)\n", sizeof(a));
 printf("Size of a long int: %u byte(s)\n", sizeof(b));
 printf("Size of a long long int: %u byte(s)\n", sizeof(c));
