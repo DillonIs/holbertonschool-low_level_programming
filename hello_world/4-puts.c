@@ -3,7 +3,7 @@
 /**
  * main - Entry point always starts the code
  *
- * Return always 0 when successful
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
