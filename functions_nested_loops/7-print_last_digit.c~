@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ *
+ *
+ *
+ */
+
+int print_last_digit(int)
+{
+  int n = n % 10;
+  return (n);
+}
