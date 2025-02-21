@@ -3,9 +3,10 @@
 /**
  * _islower - finds if c is lowercase
  *
+ * @c: c is the letter being tested
+ *
  * Return: 1 if c is lowercase
  *
- * Return: 0 if c isn't lowercase
  */
 
 int _islower(int c)
