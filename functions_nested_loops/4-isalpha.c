@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * _isalpha - finds if c is lowercase or uppercase
+ *
+ * @c: c is the letter being tested
+ *
+ * Return: 1 if c is lower or uppercase otherwis 0
+ *
+ */
+
+int _isalpha(int c)
+{
+if (c >= 65 && c <= 90)
+return (1);
+if (c >= 97 && c <= 122)
+return (1);
+else
+return (0);
+}
