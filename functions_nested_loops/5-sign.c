@@ -5,7 +5,7 @@
  *
  * @n: n is the number being tested
  *
- * Return: 1 if the number is greater than zero, 0 if n is 0 and -1 if n is less than 0
+ * Return: displays if a number is above below or zero
  */
 
 int print_sign(int n)
@@ -26,5 +26,5 @@ _putchar(45);
 return (-1);
 }
 else
-return(2);
+return (2);
 }
