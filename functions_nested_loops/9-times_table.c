@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ *
+ *
+ *
+ */
+
+void times_table(void)
+{
+  int n;
+  for (n = 0; n <= 9; n++)
+    {
+      _putchar(n + 48);
+      _putchar('\n');
+    }
+}
