@@ -19,16 +19,17 @@ if (num_val <= 100)
 while (num_val <= 100)
 {
 if ((num_val % fizz) == 0 && (num_val % buzz) == 0)
-printf("FizzBuzz ");
+printf("FizzBuzz");
 
 else if ((num_val % fizz) == 0)
-printf("Fizz ");
+printf("Fizz");
 
 else if ((num_val % buzz) == 0)
-printf("Buzz ");
+printf("Buzz");
 
 else
-printf("%d ", num_val);
+printf("%d", num_val);
+printf(" ");
 num_val++;
 }
 printf("\n");
