@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * n - number of times _ should be printed
+ * putline - _ printed per n
+ */
+
+void print_line(int n)
+{
+int putline = 0;
+if (n > 0)
+while (putline < n)
+{
+_putchar('_');
+putline = putline + 1;
+}
+_putchar('\n');
+}
