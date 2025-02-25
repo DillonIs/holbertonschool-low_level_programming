@@ -1,0 +1,33 @@
+#include "main.h"
+
+/**
+ * print_square - prints square n amount
+ *
+ * length - how long square is
+ * height - how tall square is
+ * @size: defines both height and length
+ *
+ */
+
+void print_square(int size)
+{
+int length = 0;
+int height = 0;
+
+if (size <= 0)
+{
+_putchar('\n');
+return;
+}
+while (height < size)
+{
+length = 0;
+while (length < size)
+{
+_putchar('#');
+length = length + 1;
+}
+height = height + 1;
+_putchar('\n');
+}
+}
