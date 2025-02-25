@@ -9,7 +9,7 @@
 void print_diagonal(int n)
 {
 int amtrow = 0;
-int blankspace = 0;
+int blankspace = 1;
 if (n > 0)
 while (amtrow < n)
 {
