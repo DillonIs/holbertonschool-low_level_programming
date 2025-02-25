@@ -8,26 +8,25 @@
 
 void print_diagonal(int n)
 {
-  int amtrow = 1;
-  int blankspace;
-  if (n <= 0)
-  {
-    _putchar('\n');
-  }
-  else
-    {
-      while (amtrow <= n)
-	{
-	  blankspace = 1;
-	  
-	  while (blankspace < amtrow)
-	    {
-	      _putchar(' ');
-	      blankspace++;
-	    }
-	    _putchar('\\');
-	    _putchar('\n');
-	    amtrow++;
-	}
-    }
+int amtrow = 1;
+int blankspace;
+if (n <= 0)
+{
+_putchar('\n');
+}
+else
+{
+while (amtrow <= n)
+{
+blankspace = 1;
+while (blankspace < amtrow)
+{
+_putchar(' ');
+blankspace++;
+}
+_putchar('\\');
+_putchar('\n');
+amtrow++;
+}
+}
 }
