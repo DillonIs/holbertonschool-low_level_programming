@@ -29,7 +29,10 @@ printf("Buzz");
 
 else
 printf("%d", num_val);
+if (num_val < 100)
+{
 printf(" ");
+}
 num_val++;
 }
 printf("\n");
