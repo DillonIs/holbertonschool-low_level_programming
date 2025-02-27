@@ -13,5 +13,5 @@ int stringlength = 0;
 while (*s++)
 stringlength++;
 
- return (stringlength);
+return (stringlength);
 }
