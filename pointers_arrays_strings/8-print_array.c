@@ -15,7 +15,7 @@ while (position < n)
 {
 printf("%d", a[position]);
 position++;
-if (position < n - 1)
+if (position < n)
 printf(", ");
 }
 printf("\n");
