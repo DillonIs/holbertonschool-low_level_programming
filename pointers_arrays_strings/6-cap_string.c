@@ -12,7 +12,7 @@ char *cap_string(char *str)
 {
 int index = 0;
 int indexspecial = 0;
-char *separators = " \t\n,;.!?\"(){}";
+char *separators = "\t\n,;. !?\"(){}";
 
 if (index <= 0)
 {
