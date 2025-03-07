@@ -18,6 +18,10 @@ if (s[index] == c)
 {
 return (s + index);
 }
+if (s[index] == 0)
+{
+return (0);
+}
 index++;
 }
 return (0);
