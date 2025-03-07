@@ -14,9 +14,9 @@ int index = 0;
 
 while (s[index] != '\0')
 {
-if (s[index] == c)
+if (*s == c)
 {
-return (s + index);
+return (s);
 }
 if (s[index] == 0)
 {
