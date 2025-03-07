@@ -17,7 +17,7 @@ while (s[index] != '\0')
 {
 if (s[index] == c)
 {
-return (s + index);
+return (s);
 }
 if (s[index] == 0)
 {
