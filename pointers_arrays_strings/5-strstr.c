@@ -22,20 +22,17 @@ while (haystack[hayindex] != '\0')
 {
 if (haystack[hayindex] == needle[needindex])
 {
-needindex = 0;
-while (haystack[hayindex] == needle[needindex])
+int temphayindex = hayindex;
+while (needle[needindex] != '\0' && (haystack[temphayindex] == needle[needindex]))
 {
+temphayindex++;
 needindex++;
-hayindex++;
 if (needle[needindex] == '\0')
 {
-return (haystack + (hayindex - needindex));
-}
-if (haystack[hayindex] != needle[needindex])
-{
-break;
+return (haystack + hayindex);
 }
 }
+needindex = 0;
 }
 hayindex++;
 }
