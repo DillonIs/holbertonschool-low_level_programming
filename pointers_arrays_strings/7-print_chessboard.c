@@ -3,7 +3,7 @@
 /**
  * print_chessboard - Prints a chessboard pieces
  * @a: Defines the 2-D array
- * 
+ *
  * Return: Not a return type function
  */
 
