@@ -22,7 +22,7 @@ index++;
 }
 if (c == '\0')
 {
-return (*s);
+return (s + index);
 }
 return (0);
 }
