@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ * _strpbrk - Finds any reference of bytes in a second string
+ * @s: String being tested
+ * @accept: Testing the string against
+ *
+ * Return: If the first occurence of bytes are matched accept returns pointer
+ * Otherwise returns NULL
+ */
+
+char *_strpbrk(char *s, char *accept)
+{
+int index = 0;
+
+while (s[index] != '\0')
+{
+int aindex = 0;
+
+while (accept[aindex] != '\0')
+{
+if (s[index] == accept[aindex])
+{
+return (&s[index]);
+}
+aindex++;
+}
+index++;
+}
+return (0);
+}
