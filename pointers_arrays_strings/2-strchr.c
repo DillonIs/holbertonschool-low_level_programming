@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - Finds and prints after first occurence of c
@@ -20,9 +21,9 @@ return (s + index);
 }
 if (s[index] == 0)
 {
-return (0);
+return (NULL);
 }
 index++;
 }
-return (0);
+return (NULL);
 }
