@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ *
+ *
+ *
+ *
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+  int count = 0;
+  int index = 0;
+
+  while (s[index] != '\0')
+    {
+      if (s[index] == accept[index])
+	{
+	  count++;
+	}
+      index++;
+    }
+  return (count);
+}
