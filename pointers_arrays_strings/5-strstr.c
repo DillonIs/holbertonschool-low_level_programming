@@ -22,10 +22,10 @@ while (haystack[hayindex] != '\0')
 {
 if (haystack[hayindex] == needle[needindex])
 {
-int temphayindex = hayindex;
-while (needle[needindex] != '\0' && (haystack[temphayindex] == needle[needindex]))
+int thayindex = hayindex;
+while (needle[needindex] != '\0' && (haystack[thayindex] == needle[needindex]))
 {
-temphayindex++;
+thayindex++;
 needindex++;
 if (needle[needindex] == '\0')
 {
