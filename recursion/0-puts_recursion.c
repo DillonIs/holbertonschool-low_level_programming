@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _put_recursion - Recursive function for puts
+ * _puts_recursion - Recursive function for puts
  * Prints a string followed by a newline
  *
  * @s: String identifier as pointer
