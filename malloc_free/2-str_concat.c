@@ -15,7 +15,7 @@ char *str_concat(char *s1, char *s2)
 int s1index = 0;
 int s2index = 0;
 int index = 0;
- int strlen = 0;
+int strlen = 0;
 char *copy;
 if (s1 == NULL)
 {
@@ -28,10 +28,12 @@ s2 = "";
 while (s1[s1index] != '\0')
 {
 s1index++;
+strlen++;
 }
 while (s2[s2index] != '\0')
 {
 s2index++;
+strlen++;
 }
 copy = malloc((strlen + 1) * sizeof(char));
 if (copy == NULL)
