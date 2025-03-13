@@ -15,6 +15,7 @@ char *str_concat(char *s1, char *s2)
 int s1index = 0;
 int s2index = 0;
 int index = 0;
+ int strlen = 0;
 char *copy;
 if (s1 == NULL)
 {
@@ -40,7 +41,7 @@ return (NULL);
 for (s1index = 0; s1[s1index] != '\0'; s1index++)
 {
 copy[index] = s1[s1index];
-index++
+index++;
 }
 for (s2index = 0; s2[s2index] != '\0'; s2index++)
 {
