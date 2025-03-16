@@ -1,0 +1,42 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * _calloc - Allocates memory for an array
+ * @nmemb: Number of memory block
+ * @size: Size of memory
+ *
+ * Return: Returns NULL if unsuccessful
+ * Otherwise returns updated memory
+ */
+
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
+unsigned int index, mult;
+char *memory_block;
+index = 0;
+
+if (nmemb == 0)
+{
+return (NULL);
+}
+if (size == 0)
+{
+return (NULL);
+}
+mult = nmemb * size;
+memory_block = malloc(mult);
+
+if (memory_block == NULL)
+{
+return (NULL);
+}
+while (index < mult)
+{
+memory_block[index] = 0;
+index++;
+}
+return (memory_block);
+}
