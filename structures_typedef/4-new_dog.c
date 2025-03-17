@@ -31,14 +31,14 @@ free(new_dog->name);
 free(new_dog);
 return (NULL);
 }
-while (nameindex != '\0')
+while (name[nameindex] != '\0')
 {
 new_dog->name[nameindex] = name[nameindex];
 nameindex++;
 }
 new_dog->name = name;
 new_dog->age = age;
-while (ownindex != '\0')
+while (owner[ownindex] != '\0')
 {
 new_dog->owner[ownindex] = owner[ownindex];
 ownindex++;
