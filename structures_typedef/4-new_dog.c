@@ -36,7 +36,7 @@ while (nameindex != '\0')
 new_dog->name[nameindex] = name[nameindex];
 nameindex++;
 }
-new_dog->name[nameindex] = '\0';
+new_dog->name = name;
 new_dog->age = age;
 while (ownindex != '\0')
 {
