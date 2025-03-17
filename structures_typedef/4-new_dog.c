@@ -43,6 +43,6 @@ while (ownindex != '\0')
 new_dog->owner[ownindex] = owner[ownindex];
 ownindex++;
 }
-new_dog->owner[ownindex] = '\0';
+new_dog->owner = owner;
 return (new_dog);
 }
