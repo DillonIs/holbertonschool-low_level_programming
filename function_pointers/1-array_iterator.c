@@ -1,0 +1,19 @@
+#include "function_pointers.h"
+
+/**
+ * array_iterator - Iterates through an array with pointer functions
+ * @array: Array variable
+ * @size: Size of the array
+ * @action: Pointer to function
+ */
+
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+size_t index = 0;
+
+while (index < size)
+{
+action(array[index]);
+index++;
+}
+}
