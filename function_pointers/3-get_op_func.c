@@ -9,7 +9,7 @@
  * Return: Returns NULL if fail
  */
 
-int (*get_op_func(char *s)(int, int))
+int (*get_op_func(char *s))(int, int)
 {
 op_t ops[] = {
 {"+", op_add},
@@ -20,7 +20,7 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i = 0;
-    
+
 while (i < 5)
 {
 if (ops[i].op[0] == s[0])
