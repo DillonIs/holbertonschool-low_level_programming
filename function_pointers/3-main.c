@@ -21,7 +21,7 @@ printf("Error\n");
 exit(98);
 }
 operator = get_op_func(argv[2]);
-if (operator == NULL || !operator)
+if (operator == NULL || )
 {
 printf("Error\n");
 exit(99);
