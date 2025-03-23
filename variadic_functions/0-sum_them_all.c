@@ -3,26 +3,27 @@
 #include "variadic_functions.h"
 
 /**
+ * sum_them_all - Returns the sum of all parameters
+ * @n: The amount of items
  *
- *
- *
- *
+ * Return: Returns the result as sum, 0 if n is 0
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-  va_list args;
-  int result;
-  unsigned int index;
-  
-  result = 0;
-  index = 0;
-  va_start(args, n);
+va_list ap;
+int sum;
+unsigned int index;
 
-  while (index < n)
-    {
-      result += va_arg(args, int);
-    }
-  va_end(args);
-  return (result);
+sum = 0;
+index = 0;
+va_start(ap, n);
+
+while (index < n)
+{
+sum += va_arg(ap, int);
+index++;
+}
+va_end(ap);
+return (sum);
 }
