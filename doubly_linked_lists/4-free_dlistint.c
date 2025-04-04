@@ -4,10 +4,10 @@
 #include "lists.h"
 
 /**
+ * free_dlistint - Frees a doubly linked list
+ * @head: Pointer to head
  *
- *
- *
- *
+ * Return: No return, void
  */
 
 void free_dlistint(dlistint_t *head)
